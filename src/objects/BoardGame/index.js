@@ -4,7 +4,7 @@ import "./style.css"
 const BoardGame = (amountCards)=>{
     const cards = CardGame()
     const $htmlBoardGame = cards.repeat(amountCards)
-    return `    
+    return /*html*/`    
         <section class="board-game">
             ${$htmlBoardGame}
         </section>
