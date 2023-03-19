@@ -1,6 +1,7 @@
 .card-game{
-    width: 130px;
-    height: 160px;
+    box-sizing: border-box;   
+    width: var(--card-width);
+    height: var(--card-height);
     background-color: var(--color-alura);  
     display: flex;    
     justify-content: center;
