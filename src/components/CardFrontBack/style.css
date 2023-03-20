@@ -7,10 +7,13 @@
     width: var(--card-width);
     height: var(--card-height);
     transition: transform .5s ease-in-out;
+    cursor: pointer;
+    user-select: none;
 }
 
-.card-front-back._flipped{
+._flipped{
     transform: rotateY(180deg);
+    background-color: red;
 }
 
 .card-front-back > .card{
@@ -22,6 +25,6 @@
     transform: rotateY( 180deg );
 }
 
-.card-front-back > .card-game{
+.card-front-back > ._back > .card-game{
     background-color: var(--color-fiery-rose);
 }
