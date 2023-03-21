@@ -7,5 +7,11 @@ body {
     font-family: 'Press Start 2P', sans-serif;
     background-color: var(--color-pomb-and-power);
     max-width: 320px;
-    margin: 0 auto;
+    margin: 40px auto;
+}
+
+#root{
+    box-sizing: border-box;
+    padding: 2.5rem 2rem;
+    outline: 4px solid #FFFCEE;
 }

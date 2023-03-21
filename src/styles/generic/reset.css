@@ -46,3 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+progress{
+    border: none; /* Needed for Firefox */
+    -webkit-appearance: none; /* Needed for WebKit/Blink */
+    appearance: none;
+}
