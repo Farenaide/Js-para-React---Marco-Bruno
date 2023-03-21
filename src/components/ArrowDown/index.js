@@ -1,8 +1,12 @@
+import "./style.css"
 
-
-const ArrowDown = ()=>{
+const ArrowDown = (currentplayer = 1)=>{
     return /* html */`
-        <img src="images/IconArrowDown.png" alt="ícone de uma seta para baixo">
+        <img 
+        data-currentplayer = "${currentplayer}"
+        class="arrow-down"
+        src="images/IconArrowDown.png" 
+        alt="ícone de uma seta para baixo">
     `;
 }
 
