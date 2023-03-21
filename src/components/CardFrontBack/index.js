@@ -4,7 +4,7 @@ import "./style.css"
 
 
 
-const CardFrontBack = () => {
+const CardFrontBack = (icon, altIcon) => {
     window.cardFrontBack = {}
     window.cardFrontBack.handleClick = (event)=>{
         const $target = event.target;
@@ -20,7 +20,7 @@ const CardFrontBack = () => {
             </div>
 
             <div class="card _back">
-                ${CardGame('javascript')}
+                ${CardGame(icon, altIcon)}
             </div>
 
         </article>
